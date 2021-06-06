@@ -1,0 +1,11 @@
+Algoritmo Ejercicio7
+	
+	Num = Aleatorio(10,50)
+	
+	Escribir "El numero es " Num
+	
+	DiNum = Num * 0.85
+	
+	Escribir "El numero reducido 15% es " DiNum
+	
+FinAlgoritmo
