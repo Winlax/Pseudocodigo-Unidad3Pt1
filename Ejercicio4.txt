@@ -1,0 +1,12 @@
+Algoritmo Ejercicio4
+	
+	Escribir "Ingrese un numero"
+	Leer Num
+	
+	Cua = Num * Num
+	Cubo = Cua * Num
+	
+	Escribir "El cuadrado de " Num " es " Cua
+	Escribir "El triple de " Num " es " Cubo
+	
+FinAlgoritmo
