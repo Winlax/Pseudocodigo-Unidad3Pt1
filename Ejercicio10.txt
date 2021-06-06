@@ -1,0 +1,15 @@
+Algoritmo Ejercicio10
+	
+	Escribir "Ingrese la base"
+	Leer Base
+	
+	Escribir "Ingrese la altura"
+	Leer Altura
+	
+	Perimetro = 2*Base + 2*Altura
+	Area = Base*Altura
+	
+	Escribir "El Area es " Area
+	Escribir "El perimetro es " Perimetro
+	
+FinAlgoritmo
