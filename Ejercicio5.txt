@@ -1,0 +1,10 @@
+Algoritmo Ejercicio5
+	
+	Escribir "Ingrese un numero"
+	Leer Num
+	
+	NumSig = Num + 1
+	
+	Escribir "El numero siguiente es " NumSig
+	
+FinAlgoritmo
