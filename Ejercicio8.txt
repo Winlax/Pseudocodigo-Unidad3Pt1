@@ -1,0 +1,19 @@
+Algoritmo Ejercicio8
+	
+	Escribir "Ingrese 1er. Numero entero"
+	Num1 = Entero
+	Leer Num1
+	
+	Escribir "Ingrese 2do. Numero entero"
+	Num2 = Entero
+	Leer Num2
+	
+	Escribir "Ingrese 3er. Numero entero"
+	Num3 = Entero
+	Leer Num3
+	
+	Promedio = (Num1 + Num2 + Num3) / 3
+	
+	Escribir "El promedio de los 3 numeros es " Promedio
+	
+FinAlgoritmo
