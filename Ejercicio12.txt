@@ -1,0 +1,10 @@
+Algoritmo Ejercicio12
+	
+	Escribir "Ingrese temperatura en Celsius"
+	Leer Celsius
+	
+	Far = ( Celsius * (9/5) ) + 32
+	
+	Escribir Far " °F"
+	
+FinAlgoritmo
