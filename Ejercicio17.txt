@@ -1,0 +1,28 @@
+Algoritmo Ejercicio17
+	
+	Escribir "Escribe 1er. Lado"
+	Leer Lado1
+	
+	Escribir "Escribe 2do. Lado"
+	Leer Lado2
+	
+	Escribir "Escrine 3er. Lado"
+	Leer Lado3
+	
+	Si Lado1 = Lado2 y Lado1 = Lado3 Entonces
+		
+		Escribir "Es un Triangulo Equilatero"
+		
+	SiNo Si Lado2 <> Lado1 y Lado2 <> Lado3 y Lado1 <> Lado3 Entonces
+			
+			Escribir "Es un Triangulo Escaleno"
+			
+		SiNo
+			
+			Escribir "Es un Triangulo Isoceles"
+			
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo
