@@ -1,0 +1,16 @@
+Algoritmo Ejercicio11
+	
+	Escribir "Ingrese distancia en CM"
+	Leer cm
+	
+	Yardas = cm / 91.44
+	Metros = cm / 100
+	Pies = cm / 30.48
+	Pulgadas = cm / 2.54
+	
+	Escribir Yardas " Yardas"
+	Escribir Metros " m"
+	Escribir Pies " ft"
+	Escribir Pulgadas " in"
+	
+FinAlgoritmo
