@@ -1,0 +1,19 @@
+Algoritmo Ejercicio14
+	
+	Escribir "Ingrese el denominador"
+	Leer Denominador
+	
+	Escribir "Ingrese el numerador"
+	Leer Numerador
+	
+	Si Numerador mod Denominador == 0 Entonces
+		
+		Escribir "Es divisible"
+		
+	SiNo
+		
+		Escribir "No es divisible"
+		
+	FinSi
+	
+FinAlgoritmo
