@@ -1,0 +1,12 @@
+Algoritmo Ejercicio1
+	
+	Escribir "Ingrese 1er. numero"
+	Leer Numero1
+	
+	Escribir "Ingrese 2do. numero"
+	Leer Numero2
+	
+	Suma = Numero1 + Numero2 
+	Escribir "La suma de ambos numeros es " Suma 
+	
+FinAlgoritmo
