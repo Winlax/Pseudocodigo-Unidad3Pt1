@@ -1,0 +1,12 @@
+Algoritmo Ejercicio3
+	
+	Escribir "Ingrese un numero"
+	Leer Num
+	
+	Dou = 2 * Num
+	Triple = 3 * Num
+	
+	Escribir "El doble de " Num " es " Dou
+	Escribir "El triple de " Num " es " Triple
+
+FinAlgoritmo
