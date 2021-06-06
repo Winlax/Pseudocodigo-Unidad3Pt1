@@ -1,0 +1,11 @@
+Algoritmo Ejercicio6
+	
+	Num = Aleatorio(0,200)
+	
+	Escribir "El numero es " Num
+	
+	AuNum = Num * 1.30
+	
+	Escribir "El numero aumentado 30% es " AuNum
+	
+FinAlgoritmo
