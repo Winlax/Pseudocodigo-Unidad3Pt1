@@ -1,0 +1,45 @@
+Algoritmo Ejercicio20
+	
+	Escribir "Ingrese un numero de maximo 5 cifras"
+	Leer Num 
+	
+	d1 <- Subcadena(Num,1,1)
+	d2 <- Subcadena(Num,2,2)
+	d3 <- Subcadena(Num,3,3)
+	d4 <- Subcadena(Num,4,4)
+	d5 <- Subcadena(Num,5,5)
+	
+	n1 <- ConvertirANumero(d1)
+	n2 <- ConvertirANumero(d2)
+	n3 <- ConvertirANumero(d3)
+	n4 <- ConvertirANumero(d4)
+	n5 <- ConvertirANumero(d5)
+	nume <- ConvertirANumero(Num)
+	
+	Si Nume  > 9999 y Nume < 100000 Entonces
+		
+		si n1 = n5 Entonces
+			
+			si n2 = n4 Entonces
+				
+				Escribir "Es capicua"
+				
+			SiNo
+				
+				Escribir "No es Capicua"
+				
+			FinSi
+			
+		SiNo
+			
+			Escribir "No es Capicua"
+			
+		FinSi
+		
+	SiNo
+		
+		Escribir "Debe tener 5 digitos"
+		
+	FinSi
+	
+FinAlgoritmo
