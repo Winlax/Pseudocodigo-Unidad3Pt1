@@ -1,0 +1,28 @@
+Algoritmo Ejercicio13
+	
+	Escribir "Ingrese el Radio"
+	Leer Radio
+	
+	Si Radio >= 0 Entonces
+		
+		Escribir "Ingrese la Altura"
+		Leer Altura
+		
+		Si Altura >= 0 Entonces
+			
+			V = pi * Radio * Radio * Altura
+			Escribir "El Volumen del cilindro es " V
+			
+		SiNo
+			
+			Escribir "La altura debe ser positiva"
+			
+		FinSi
+		
+	SiNo
+		
+		Escribir "El radio debe ser positiva"
+		
+	FinSi
+	
+FinAlgoritmo
