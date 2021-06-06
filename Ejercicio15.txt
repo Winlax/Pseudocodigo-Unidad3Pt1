@@ -1,0 +1,22 @@
+Algoritmo Ejercicio15
+	
+	Escribir "Escribe un numero"
+	Leer Nume
+	
+	Si Nume = 0 Entonces
+		
+		Escribir "Es numero ingresado es Nulo"
+		
+	SiNo Si Nume > 0 Entonces
+			
+			Escribir "El numero ingresado es Positivo"
+			
+		SiNo
+			
+			Escribir "El numero ingresado es Negativo"
+			
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo
