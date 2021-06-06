@@ -1,0 +1,51 @@
+Algoritmo Ejercicio18
+	
+	Escribir "Ingrese un numero de maximo 4 cifras"
+	Leer Num 
+	
+	d1 <- Subcadena(Num,1,1)
+	d2 <- Subcadena(Num,2,2)
+	d3 <- Subcadena(Num,3,3)
+	d4 <- Subcadena(Num,4,4)
+	
+	n1 <- ConvertirANumero(d1)
+	n2 <- ConvertirANumero(d2)
+	n3 <- ConvertirANumero(d3)
+	n4 <- ConvertirANumero(d4)
+	nume <- ConvertirANumero(Num)
+	
+	Si Nume <= 9999 Entonces
+		
+		Si d1 = "" Entonces
+			
+			n1 = 0
+			
+			Si d2 = "" Entonces
+				
+				n2 = 0
+				
+				Si d3 = "" Entonces
+					
+					n3 = 0
+					
+					Si d4 = "" Entonces
+						
+						n4 = 0
+						
+					FinSi
+				FinSi
+			FinSi
+			
+		FinSi
+		
+		Suma = n1 + n2 + n3 + n4
+		
+		Escribir "d1 = " n1
+		Escribir "d2 = " n2
+		Escribir "d3 = " n3
+		Escribir "d4 = " n4
+		Escribir "Suman " Suma
+		
+	FinSi
+
+FinAlgoritmo
