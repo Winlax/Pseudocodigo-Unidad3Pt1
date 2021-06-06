@@ -1,0 +1,11 @@
+Algoritmo Ejercicio2
+	
+	Escribir "Escriba la Capital de un pais"
+	Leer Cap
+	
+	Escribir "Escrbir el pais de la capital anterior"
+	Leer Pais
+	
+	Escribir Cap " es la capital de " Pais
+	
+FinAlgoritmo
