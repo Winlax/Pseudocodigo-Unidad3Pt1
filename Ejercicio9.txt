@@ -1,0 +1,16 @@
+Algoritmo Ejercicio9
+	
+	Escribir "Ingrese 1ra. palabra"
+	Leer PalabraA
+	
+	Escribir "Ingrese 2da. Palabra"
+	Leer PalabraB
+	
+	PalabraC = PalabraA
+	
+	PalabraA = PalabraB 
+	
+	Escribir "La 1er. Palabra es " PalabraA
+	Escribir "La 2da. Palabra es " PalabraC
+	
+FinAlgoritmo
