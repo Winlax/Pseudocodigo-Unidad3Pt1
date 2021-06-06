@@ -1,0 +1,28 @@
+Algoritmo Ejercicio16
+	
+	Escribir "Escribe 1er. numero"
+	Leer Num1
+	
+	Escribir "Escribe 2do. numero"
+	Leer Num2
+	
+	Escribir "Escrine 3er. numero"
+	Leer Num3
+	
+	Si Num1 > num2 y Num1 > Num3 Entonces
+		
+		Escribir "El numero mayor es " Num1
+		
+	SiNo Si num2 > Num1 y Num2 > Num3 Entonces
+			
+			Escribir "El numero mayor es " Num2
+			
+		SiNo
+			
+			Escribir "El numero mayor es " Num3
+			
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo
